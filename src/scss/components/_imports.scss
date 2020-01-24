@@ -3,6 +3,10 @@
 // core components used in the Skeloading
 //
 
+// Animations
+@import "animations/shimmer";
+@import "animations/fadein";
+
 // Cards
 @import "cards/card";
 @import "cards/card-rounded";
@@ -19,10 +23,12 @@
 // Inputs
 @import "inputs/input";
 @import "inputs/input-rounded";
+@import "inputs/input-rounded-pill";
 
 // Tables
 @import "tables/table";
-@import "tables/table-rounded";
+@import "tables/table-text";
+@import "tables/table-text-rounded";
 
 // Titles
 @import "titles/title";
