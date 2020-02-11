@@ -1,0 +1,47 @@
+@mixin keyframes($animationName) {
+  @-webkit-keyframes #{$animationName} {
+    @content;
+  }
+
+  @-moz-keyframes #{$animationName} {
+    @content;
+  }
+
+  @-o-keyframes #{$animationName} {
+    @content;
+  }
+
+  @keyframes #{$animationName} {
+    @content;
+  }
+}
+
+@mixin skeleton-box($display: block, $width: 100%, $height: 1rem) {
+  display: $display;
+  width: $width;
+  height: $height;
+}
+
+@mixin skeleton-widths($widths) {
+  @each $i in $widths {
+    .sl-width-#{nth($i, 1)} {
+      width: nth($i, 2) !important;
+    }
+  }
+}
+
+@mixin skeleton-heights($heights) {
+  @each $i in $heights {
+    .sl-height-#{nth($i, 1)} {
+      height: nth($i, 2) !important;
+    }
+  }
+}
+
+@mixin skeleton-rounds($rounds) {
+  @each $i in $rounds {
+    .sl-rounded-#{nth($i, 1)} {
+      border-radius: nth($i, 2) !important;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+.sl-title {
+  @include skeleton-box(block, 150px, 1.25rem);
+  margin-bottom: $title-margin-bottom;
+}

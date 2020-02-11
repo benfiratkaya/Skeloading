@@ -1,0 +1,35 @@
+// Variables
+
+// Color System
+$white: #ffffff;
+$black: #000000;
+
+// Margins
+$title-margin-bottom: 0.5rem;
+
+// Paddings
+$card-padding: 1.25rem 1.5rem;
+
+// Width List
+$width-list: ('xs': 3.125rem,
+  'sm': 6.25rem,
+  'md': 9.375rem,
+  'lg': 12.5rem,
+  'xl': 15.625rem,
+  'full': 100%,
+  'half': 50%);
+
+// Height List
+$height-list: ('xs': 0.75rem,
+  'sm': 0.875rem,
+  'md': 1rem,
+  'lg': 1.25rem,
+  'xl': 1.5rem);
+// Round List
+$round-list: ('xs': 0.125rem,
+  'sm': 0.25rem,
+  'md': 0.375rem,
+  'lg': 0.5rem,
+  'xl': 0.625rem,
+  'circle': 50%,
+  'pill': 50rem);

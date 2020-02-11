@@ -7,10 +7,60 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Skeloading Examples</title>
 
-  <!--Bootstrap (Optional) -->
+  <!--Bootstrap (for demo) -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-  <!-- Skeloading -->
-  <link rel="stylesheet" href="assets/css/skeloading.min.css">
+  <!--Fontawesome (for demo) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <!-- sl -->
+  <link rel="stylesheet" href="assets/css/skeloading.min.css" id="themeFile">
+
+  <!-- Demo CSS -->
+  <style>
+    #themeSelector,
+    #wikiLink {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      bottom: 40px;
+      right: 50px;
+      width: 50px;
+      height: 50px;
+      color: #ffffff;
+      font-size: 22px;
+      font-family: sans-serif;
+      text-decoration: none;
+      border-radius: 50%;
+      -webkit-box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125) !important;
+      box-shadow: 0 1rem 3rem rgba(31, 45, 61, .125) !important;
+      transition: background-color .2s;
+    }
+
+    #wikiLink {
+      background-color: #dae0e5;
+      color: #273444;
+      right: 114px;
+    }
+
+    #wikiLink:hover,
+    #wikiLink:focus {
+      background-color: #ccd2d7;
+    }
+
+    @media screen and (max-width: 960px) {
+
+      #themeSelector,
+      #wikiLink {
+        bottom: 20px;
+        right: 15px;
+      }
+
+      #wikiLink {
+        right: 75px;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
@@ -18,15 +68,15 @@
     <div class="row">
       <div class="col-lg-5">
         <h4 class="mt-5 mb-3">Inputs</h4>
-        <div class="skeloading-card-rounded py-4">
+        <div class="sl-card sl-rounded-md py-4">
           <form>
             <div class="form-group mb-4">
-              <div class="skeloading-title-rounded skeloading-shimmer"></div>
-              <div class="skeloading-input-rounded-pill skeloading-shimmer"></div>
+              <div class="sl sl-title sl-rounded-sm sl-animation-shimmer"></div>
+              <div class="sl sl-input sl-rounded-pill sl-animation-shimmer"></div>
             </div>
             <div class="form-group mb-4">
-              <div class="skeloading-title-rounded skeloading-shimmer"></div>
-              <div class="skeloading-input-rounded skeloading-shimmer"></div>
+              <div class="sl sl-title sl-rounded-sm sl-animation-shimmer"></div>
+              <div class="sl sl-input sl-rounded-sm sl-animation-shimmer"></div>
             </div>
             <button type="submit" class="btn btn-primary w-100">Submit</button>
           </form>
@@ -34,23 +84,23 @@
       </div>
       <div class="col-lg-7">
         <h4 class="mt-5 mb-3">Image, Title, Content (Fade In Effect)</h4>
-        <div class="skeloading-card-rounded skeloading-fadein mb-3">
+        <div class="sl-card sl-rounded-md sl-animation-fadein mb-3">
           <div class="media">
-            <div class="skeloading-image-circle skeloading-shimmer mr-3"></div>
+            <div class="sl sl-image sl-rounded-circle sl-animation-shimmer mr-3"></div>
             <div class="media-body">
-              <div class="skeloading-title-rounded skeloading-shimmer"></div>
-              <div class="skeloading-content-rounded skeloading-shimmer"></div>
-              <div class="skeloading-content-rounded skeloading-shimmer"></div>
+              <div class="sl sl-title sl-rounded-sm sl-animation-shimmer"></div>
+              <div class="sl sl-paragraph sl-rounded-sm sl-animation-shimmer"></div>
+              <div class="sl sl-paragraph sl-rounded-sm sl-animation-shimmer"></div>
             </div>
           </div>
         </div>
-        <div class="skeloading-card-rounded mb-3">
+        <div class="sl-card sl-rounded-md mb-3">
           <div class="media">
-            <div class="skeloading-image-circle skeloading-shimmer mr-3"></div>
+            <div class="sl sl-image sl-rounded-circle sl-animation-shimmer mr-3"></div>
             <div class="media-body">
-              <div class="skeloading-title-rounded skeloading-shimmer"></div>
-              <div class="skeloading-content-rounded skeloading-shimmer"></div>
-              <div class="skeloading-content-rounded skeloading-shimmer"></div>
+              <div class="sl sl-title sl-rounded-sm sl-animation-shimmer"></div>
+              <div class="sl sl-paragraph sl-rounded-sm sl-animation-shimmer"></div>
+              <div class="sl sl-paragraph sl-rounded-sm sl-animation-shimmer"></div>
             </div>
           </div>
         </div>
@@ -59,39 +109,39 @@
     <div class="row">
       <div class="col-lg-12">
         <h4 class="mt-5 mb-3">Table</h4>
-        <div class="skeloading-card-rounded mb-5">
-          <table class="skeloading-table">
+        <div class="sl-card sl-rounded-md mb-5">
+          <table class="sl-table">
             <tr>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
             </tr>
             <tr>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
             </tr>
             <tr>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
               <td>
-                <div class="skeloading-table-text-rounded skeloading-shimmer"></div>
+                <div class="sl sl-table-text sl-rounded-sm sl-animation-shimmer"></div>
               </td>
             </tr>
           </table>
@@ -99,6 +149,42 @@
       </div>
     </div>
   </div>
+
+  <a id="wikiLink" href="https://skeloading.benfiratkaya.com" target="_blank">
+    <i class="fa fa-info"></i>
+  </a>
+  <a id="themeSelector" class="bg-primary" href="#!">
+    <i class="fa fa-sun"></i>
+  </a>
+
+  <!-- Jquery (for demo) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap (for demo) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Demo JS -->
+  <script>
+    var theme = (localStorage.theme) ? localStorage.theme : 'light';
+    if (localStorage.theme === 'light') {
+      $("#themeSelector i").attr("class", "fa fa-moon");
+      $("#themeSelector").attr("class", "bg-dark");
+      $("#themeFile").attr("href", "assets/css/skeloading.min.css");
+    } else {
+      $("#themeSelector i").attr("class", "fa fa-sun");
+      $("#themeSelector").attr("class", "bg-primary");
+      $("#themeFile").attr("href", "assets/css/skeloading-dark.min.css");
+    }
+    $("#themeSelector").on("click", function(e) {
+      if (localStorage.theme === 'light') {
+        localStorage.setItem("theme", "dark");
+        $(this).attr("class", "bg-primary").find("i").attr("class", "fa fa-sun");
+        $("#themeFile").attr("href", "assets/css/skeloading-dark.min.css");
+      } else {
+        localStorage.setItem("theme", "light");
+        $(this).attr("class", "bg-dark").find("i").attr("class", "fa fa-moon");
+        $("#themeFile").attr("href", "assets/css/skeloading.min.css");
+      }
+    });
+  </script>
 </body>
 
 </html>

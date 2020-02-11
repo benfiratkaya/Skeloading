@@ -1,0 +1,38 @@
+{
+  "name": "skeloading",
+  "version": "1.0.0",
+  "description": "Skeleton Loading CSS class for web sites.",
+  "main": "gulfile.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benfiratkaya/Skeloading.git"
+  },
+  "keywords": [
+    "skeleton",
+    "loading"
+  ],
+  "author": "Firat Kaya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benfiratkaya/Skeloading/issues"
+  },
+  "homepage": "https://github.com/benfiratkaya/Skeloading#readme",
+  "devDependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cssbeautify": "^2.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "postcss-flexbugs-fixes": "^4.1.0"
+  },
+  "dependencies": {}
+}

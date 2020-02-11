@@ -12,11 +12,13 @@ Lorem ipsum ipsum ipsum ipsum
 
 - Card loading
 - Title loading
-- Content loading
+- Paragraph loading
 - Input loading
 - Image loading
 - Table loading
 - Animation
+- Width styles
+- Height styles
 - Rounded styles
 - Full customizable
 - SCSS support

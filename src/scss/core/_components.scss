@@ -1,0 +1,39 @@
+//
+// Global components
+// core components used in the Skeloading
+//
+
+// Main
+@import "components/main";
+
+// Animations
+@import "components/animations/shimmer";
+@import "components/animations/fadein";
+
+// Widths
+@import "components/widths/width.scss";
+
+// Heights
+@import "components/heights/height.scss";
+
+// Rounds
+@import "components/rounds/round.scss";
+
+// Cards
+@import "components/cards/card";
+
+// Paragraphs
+@import "components/paragraphs/paragraph";
+
+// Images
+@import "components/images/image";
+
+// Inputs
+@import "components/inputs/input";
+
+// Tables
+@import "components/tables/table";
+@import "components/tables/table-text";
+
+// Titles
+@import "components/titles/title";
