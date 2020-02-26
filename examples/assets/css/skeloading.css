@@ -52,6 +52,39 @@ Copyright 2019 Firat Kaya
   }
 }
 
+.sl-animation-fading {
+  -webkit-animation: fading 1.5s infinite;
+  animation: fading 1.5s infinite;
+}
+
+@-webkit-keyframes fading {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.25;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fading {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.25;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .sl-animation-fadein {
   -webkit-animation: fadeIn 0.25s ease-in-out;
   animation: fadeIn 0.25s ease-in-out;
@@ -74,6 +107,31 @@ Copyright 2019 Firat Kaya
 
   100% {
     opacity: 1;
+  }
+}
+
+.sl-animation-fadeout {
+  -webkit-animation: fadeOut 0.25s ease-in-out;
+  animation: fadeOut 0.25s ease-in-out;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
   }
 }
 

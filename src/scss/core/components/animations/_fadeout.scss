@@ -1,0 +1,13 @@
+.sl-animation-fadeout {
+  animation: fadeOut 0.25s ease-in-out;
+}
+
+@include keyframes(fadeOut) {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
